@@ -4,10 +4,13 @@ package immayaa;
 
 public class day3_TipeDataNonPrimitif {
     public static void main(String[] args) {
-        string iniString = "immayaa";
-        byte iniByte = 21;
-        short iniShort =2002;
-        
-    }
-    
+       String inistring ="immayaa";
+       Byte inibyte =22;
+       Short inishort =2002;
+       Integer iniint =45;
+       Float inifloat =123f;
+       Double inidouble =1.52;
+       Character iniCharacter ='A';
+       Boolean iniboolean =false;
+    }    
 }
