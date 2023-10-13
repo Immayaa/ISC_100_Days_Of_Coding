@@ -1,0 +1,39 @@
+package immayaa;
+
+import java.util.Scanner;
+
+public class day5_InputOutput {
+
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        
+        System.out.print("Masukkan No peserta      :");
+        String  nopeserta = a.nextLine();
+        
+        System.out.print("Masukkan nama            :");
+        String nama = a.nextLine();
+        
+        System.out.print("Masukkan jenis kelamin   :");
+        String jeniskelamin = a.nextLine();
+        
+        System.out.print("Masukkan umur            :");
+        int umur = a.nextInt();
+        
+        System.out.print("Maukkan Berat Badan      :");
+        double beratbadan = a.nextDouble();
+        
+        System.out.print("Masukkan Status keaktifan:");
+        boolean aktif = a.nextBoolean();
+        
+        
+        
+        System.out.println("N0 peserta    :"+ nopeserta);
+        System.out.println("Nama          :"+ nama);
+        System.out.println("jenis kelamin :"+ jeniskelamin);
+        System.out.println("umur          :"+ umur);
+        System.out.println("berat badan   :"+ beratbadan);
+        System.out.println("Aktif         :"+ aktif);
+
+    }
+
+}
