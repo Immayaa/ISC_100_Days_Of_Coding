@@ -1,0 +1,39 @@
+
+package immayaa;
+
+
+public class day9_OperatorLogika {
+    public static void main(String[] args) {
+         //operator logika
+        
+        boolean c, m, d;
+        c = false;
+        m = false;
+        d = (c || m);
+        System.out.println(" OR : " + c + " || " + m + " = " + d);
+        d = (c && m);
+        System.out.println(" AND : " + c + " && " + m + " = " + d);
+
+        c = false;
+        m = true;
+        d = (c || m);
+        System.out.println(" OR : " + c + " || " + m + " = " + d);
+        d = (c && m);
+        System.out.println(" AND : " + c + " && " + m + " = " + d);
+
+        c = true;
+        m = false;
+        d = (c || m);
+        System.out.println(" OR : " + c + " || " + m + " = " + d);
+        d = (c && m);
+        System.out.println(" AND : " + c + " && " + m + " = " + d);
+
+        c = true;
+        m = true;
+        d = (c || m);
+        System.out.println(" OR : " + c + " || " + m + " = " + d);
+        d = (c && m);
+        System.out.println(" AND : " + c + " && " + m + " = " + d);
+    }
+    
+}
