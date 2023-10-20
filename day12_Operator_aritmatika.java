@@ -16,7 +16,7 @@ public class day12_Operator_aritmatika {
         System.out.println("jumlah kotak yang terisi = " + jumlahKotak);
       
         kotak = jumlahkemeja % jumlahKotak;
-        System.out.println("sisah kotak yang belum terkemas = " + kotak);
+        System.out.println("sisah kemeja yang belum terkemas = " + kotak);
 
     }
 
