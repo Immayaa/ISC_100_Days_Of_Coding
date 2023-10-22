@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class day13_operator_aritmatika {
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		System.out.print("masukkan harga sekarang: ");
+		int hargaSekarng = a.nextInt();
+		System.out.print("masukkan harga lama: ");
+		int hargalama = a.nextInt();
+		
+		int h = hargaSekarng - hargalama;
+		System.out.println("selisih harga :" +h);
+		
+	
+		
+	}
+}
