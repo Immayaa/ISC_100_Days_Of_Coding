@@ -1,5 +1,5 @@
 package immayaa;
-public class day29_looping_persegi {
+public class day28_looping_persegi {
     public static void main(String[] args) {
 
         int i,j;
