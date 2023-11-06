@@ -5,26 +5,24 @@ import java.util.Scanner;
 public class day29_Control_flow {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner x = new Scanner(System.in);
 
         System.out.print("Masukkan nama Anda: ");
-        String nama = input.nextLine();
+        String nama = x.next();
 
         System.out.print("Masukkan usia Anda: ");
-        int usia = input.nextInt();
+        int usia = x.nextInt();
 
         if (usia < 0) {
             System.out.println("Usia tidak valid. Mohon masukkan usia yang benar.");
         } else if (usia < 12) {
-            System.out.println("Halo, " + nama + "! Anda adalah seorang anak.");
+            System.out.println(nama + " Anda adalah seorang anak.");
         } else if (usia < 18) {
-            System.out.println("Halo, " + nama + "! Anda adalah seorang remaja.");
+            System.out.println(nama + " Anda adalah seorang remaja.");
         } else if (usia < 60) {
-            System.out.println("Halo, " + nama + "! Anda adalah seorang dewasa.");
+            System.out.println(nama + " Anda adalah seorang dewasa.");
         } else {
-            System.out.println("Halo, " + nama + "! Anda adalah seorang manula.");
-        }
-
-        input.close();
-    }
+            System.out.println(nama + " Anda adalah seorang manula.");
+        }
+    }
 }
